@@ -21,7 +21,7 @@ public class Camion extends Vehiculo implements Combustible {
             // Simulación visual del avance
             System.out.print("\rCarretera: [");
             for (int j = 0; j < distancia; j++) {
-                if (j == i) System.out.print("\uD83D\uDE9A");
+                if (j == i) System.out.print("\uD83D\uDE9A"); // Java source code para emote de camion
                 else System.out.print("-");
             }
             System.out.print("]");

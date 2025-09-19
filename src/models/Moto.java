@@ -21,7 +21,7 @@ public class Moto extends Vehiculo {
             // Simulación visual del avance
             System.out.print("\rCarretera: [");
             for (int j = 0; j < distancia; j++) {
-                if (j == i) System.out.print("\uD83C\uDFCD️");
+                if (j == i) System.out.print("\uD83C\uDFCD️"); // Java source code para emote de moto
                 else System.out.print("-");
             }
             System.out.print("]");

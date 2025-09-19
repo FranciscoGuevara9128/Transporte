@@ -22,6 +22,7 @@ public abstract class Vehiculo {
     */
     public abstract void mover(int distancia);
 
+    // Metodo utilizado para simular tiempos de espera
     public void esperar(int ms) {
         try {
             Thread.sleep(ms);

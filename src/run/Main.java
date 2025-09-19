@@ -14,6 +14,7 @@ import models.Vehiculo;
 public class Main {
     public static void main(String[] args) {
 
+        // Arreglo de vehiculo
         Vehiculo[] vehiculos = {
                 new Carro("Toyota", "Corolla"),
                 new Camion("Toyota", "Hiace"),
