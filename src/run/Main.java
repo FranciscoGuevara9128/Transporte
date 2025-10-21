@@ -16,9 +16,9 @@ public class Main {
 
         // Arreglo de vehiculo
         Vehiculo[] vehiculos = {
-                new Carro("Toyota", "Yaris"),
-                new Camion("Suzuki", "Hino"),
-                new Moto("Genesis", "150")
+                new Carro("Toyota", "Hilux"),
+                new Camion("Kia", "Camioncito"),
+                new Moto("Pulsar", "150")
         };
 
         for  (Vehiculo vehiculo : vehiculos) {
