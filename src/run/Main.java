@@ -18,7 +18,7 @@ public class Main {
         Vehiculo[] vehiculos = {
                 new Carro("Toyota", "Yaris"),
                 new Camion("Suzuki", "Hino"),
-                new Moto("Pulsar", "150")
+                new Moto("Genesis", "150")
         };
 
         for  (Vehiculo vehiculo : vehiculos) {
